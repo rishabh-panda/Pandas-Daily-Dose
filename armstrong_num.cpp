@@ -10,7 +10,8 @@ cin>>digits;
 cout<<"enter a "<<digits<<" digit number: ";
 cin>>n;
 
-int n_storage = n; //temporary variable
+    //temporary variable
+int n_storage = n;
 int sum = 0;
 while(n>0) {
     lastdigit = n%10;
