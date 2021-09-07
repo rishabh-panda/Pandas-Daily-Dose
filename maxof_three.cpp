@@ -12,6 +12,7 @@ if (a>b && a>c)
 {
     cout<<a<<" is great";
 }
+//comparing the remaining two numbers    
 else if (b>c)
 {
     cout<<b<<" is great";
