@@ -7,6 +7,7 @@ int a,b,c;
 cout<<"enter three numbers: \n";
 cin>>a>>b>>c;
 
+    //comparing first number with remaining
 if (a>b && a>c)
 {
     cout<<a<<" is great";
