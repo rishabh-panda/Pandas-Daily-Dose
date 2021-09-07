@@ -17,7 +17,6 @@ int main()
 {   int num;
     cout<<"enter number: ";
     cin>>num;
-
-	isPrime(num) ? cout<<" is prime\n" : cout<<" is composite\n";
-	return 0;
+    isPrime(num) ? cout<<" is prime\n" : cout<<" is composite\n";
+ return 0;
 }
