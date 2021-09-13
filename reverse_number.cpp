@@ -8,6 +8,8 @@ cin>>n;
 
 //initializing the variable to store result
 int reverse = 0;
+    
+//iterating till the number gets reversed
 while(n>0) {
     lastdigit = n%10;
     reverse = reverse*10 + lastdigit;
