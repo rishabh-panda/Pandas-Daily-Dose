@@ -6,6 +6,7 @@ int n, lastdigit;
 cout<<"enter the num: ";
 cin>>n;
 
+//initializing the variable to store result
 int reverse = 0;
 while(n>0) {
     lastdigit = n%10;
