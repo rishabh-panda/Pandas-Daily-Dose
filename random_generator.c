@@ -5,7 +5,7 @@
     int main() {
  
     int n;
-    srand(time(0)); //time library
+    srand(time(0));
     n=rand()%100+1;       // generates random number b/w 1 & 100
 
     printf("Random: %d",n);
