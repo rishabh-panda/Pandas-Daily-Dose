@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdlib.h>  //for generating random numbers
+#include<stdlib.h>
 #include<time.h>
 
     int main() {
