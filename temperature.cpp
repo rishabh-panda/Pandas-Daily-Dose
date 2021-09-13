@@ -3,6 +3,7 @@ using namespace std;
 
 int main() {
 
+//temperature variables
 float c, f;
 
 cout<<"Enter Temp. in Centigrade: ";
