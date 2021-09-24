@@ -2,7 +2,9 @@
 #include<math.h>
 using namespace std;
 
-void PythoGorean(int x, int y, int z) {
+void PythoGorean(int x, int y, int z) 
+{
+    //fo
     if (pow(x,2) + pow(y,2) == pow(z,2))
     {
         cout<<"Pythogorean Triplet";
