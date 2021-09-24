@@ -3,7 +3,8 @@ using namespace std;
 
 int DecToBinary(int n)
 {
-    for (int i = 32; i > 0; i--)
+    //considering 8 bit number
+    for (int i = 8; i > 0; i--)
     {
         n >> i;
         if ((n >> i) & 1)
