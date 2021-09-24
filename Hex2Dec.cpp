@@ -8,6 +8,8 @@ int HextoDec(string HexNum)
     
     //length of the hexadecimal string
     int HexNumLength = HexNum.length();
+    
+    //storage container variable
     int DecimalValue = 0;
     for (int i = HexNumLength-1; i >= 0; i--)
     {
