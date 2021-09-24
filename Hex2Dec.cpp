@@ -3,8 +3,10 @@ using namespace std;
 
 int HextoDec(string HexNum)
 {
-    #defining the base
+    //defining the base
     int PowersOfSixteen = pow(16,0);
+    
+    //length of the hexadecimal string
     int HexNumLength = HexNum.length();
     int DecimalValue = 0;
     for (int i = HexNumLength-1; i >= 0; i--)
