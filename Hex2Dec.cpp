@@ -11,6 +11,9 @@ int HextoDec(string HexNum)
     
     //storage container variable
     int DecimalValue = 0;
+    
+    //considering each string element from
+    //right to left side
     for (int i = HexNumLength-1; i >= 0; i--)
     {
         if (HexNum[i] >= '0' && HexNum[i] <= '9')
