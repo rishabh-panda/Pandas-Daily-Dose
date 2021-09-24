@@ -4,7 +4,7 @@ using namespace std;
 
 void PythoGorean(int x, int y, int z) 
 {
-    //formulati
+    //formulatio
     if (pow(x,2) + pow(y,2) == pow(z,2))
     {
         cout<<"Pythogorean Triplet";
