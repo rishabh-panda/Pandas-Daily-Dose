@@ -16,6 +16,7 @@ int HextoDec(string HexNum)
     //right to left side
     for (int i = HexNumLength-1; i >= 0; i--)
     {
+        //when string element is a numeric hex value
         if (HexNum[i] >= '0' && HexNum[i] <= '9')
         {
             DecimalValue += (int(HexNum[i] - 48)*PowersOfSixteen);
