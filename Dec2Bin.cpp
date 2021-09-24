@@ -7,6 +7,7 @@ int DecToBinary(int n)
     //considering 8 bit number
     for (int i = 8; i > 0; i--)
     {
+        //right-shift
         n >> i;
         if ((n >> i) & 1)
         {
