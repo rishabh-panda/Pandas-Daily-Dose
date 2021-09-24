@@ -9,6 +9,8 @@ int DecToBinary(int n)
     {
         //right-shift operation
         n >> i;
+        
+        //logical AND operation
         if ((n >> i) & 1)
         {
             cout<<"1";
