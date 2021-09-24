@@ -23,6 +23,8 @@ int HextoDec(string HexNum)
             PowersOfSixteen *= 16;
         }
 
+        
+        //when string element is a alphabetical hex value
         else if (HexNum[i] >= 'A' && HexNum[i] <= 'E')
         {
             DecimalValue += (int(HexNum[i] - 55)*PowersOfSixteen);
