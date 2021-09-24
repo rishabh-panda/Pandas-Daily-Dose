@@ -23,6 +23,7 @@ cin>>b;
 cout<<"third: ";
 cin>>c;
 
+//function prototype
 PythoGorean(a,b,c);
 
 return 0;
