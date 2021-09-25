@@ -12,7 +12,7 @@ int nthfibo(int n)
 
 int main() {
 int n;
-cout<<"enter terms: ";
+cout<<"enter the fibo. term: ";
 cin>>n;
 cout<<nthfibo(n);
 
