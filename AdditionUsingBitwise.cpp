@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int BinaryAddition(int a, int b)
+int BitAddition(int a, int b)
 {
     while (b != 0)
     {
